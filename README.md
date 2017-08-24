@@ -4,6 +4,8 @@
 打开main.storyboard 在右侧边栏 有两个 checkbox **Use Auto Layout**  和 **Use Size Classes**<br />
 把这两个都去掉， 这两个是  自动布局的东西<br />
 右侧栏 有一个向下的箭头  这个是关于控件的属性 都在这里<br />
+![image](https://github.com/xuhuawei131/MyIOSApp1/tree/master/screen/kongjian.png)
+
 ViewControler是这个界面的控制类 所有的回调 都在这里执行<br />
 按住**alt** 点击ViewControler.m文件  会在辅助窗口打开 （我们的主窗口再左边、点击故事版等都是在主窗口显示）<br />
 然后点击Main.storyboard 会在主窗口打开 显示我们刚才拖进来的控件
