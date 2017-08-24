@@ -14,11 +14,17 @@ ViewControler是这个界面的控制类 所有的回调 都在这里执行<br /
 
 然后点击Main.storyboard 会在主窗口打开 显示我们刚才拖进来的控件
 按住**Control**，拖动控件，这时候会出现一条线 ，然后我们拖动到.m文件下的 implements 里
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/tuodongkongjian.png)
 
 这时候会出现一个对话框，让你选择Evnet事件，比如touch up inside（在按钮上松开）我们可以理解成点击松开
 也还有其他很多，比如Touch Down等等 根据自己的需求去选择
+
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/shijianchuangkou.png)
+
 在Name选项 写入 我们控件触发某种事件 的回调 函数名称 类似于anroid中onclick 回调函数名称 
 按下回车 xcode会帮我们在ViewControl中生成一个函数 函数名是我们刚才起的
+
+
 
 在这个函数的左边 有一个小 实心的圆圈 这表示这个函数 已经和某一个控件发生了关联
 如果鼠标放在圆圈上面  关联的控件会高亮
