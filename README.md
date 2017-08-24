@@ -3,11 +3,15 @@
 创建项目的时候 选择了IOS －》SingleView<br />
 打开main.storyboard 在右侧边栏 有两个 checkbox **Use Auto Layout**  和 **Use Size Classes**<br />
 把这两个都去掉， 这两个是  自动布局的东西<br />
+右侧栏下面有一个铜板的图标 点击它 下面出现的就是默认的所有的控件、拖到故事版页面上即可
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/kongjian.png)
 右侧栏 有一个向下的箭头  这个是关于控件的属性 都在这里<br />
-![image](https://github.com/xuhuawei131/MyIOSApp1/raw/master/Screenshots/kongjian.png)
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/shuxinglan.png)
 
 ViewControler是这个界面的控制类 所有的回调 都在这里执行<br />
 按住**alt** 点击ViewControler.m文件  会在辅助窗口打开 （我们的主窗口再左边、点击故事版等都是在主窗口显示）<br />
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/fuzhuchuangkou.png)
+
 然后点击Main.storyboard 会在主窗口打开 显示我们刚才拖进来的控件
 按住**Control**，拖动控件，这时候会出现一条线 ，然后我们拖动到.m文件下的 implements 里
 
@@ -15,10 +19,12 @@ ViewControler是这个界面的控制类 所有的回调 都在这里执行<br /
 也还有其他很多，比如Touch Down等等 根据自己的需求去选择
 在Name选项 写入 我们控件触发某种事件 的回调 函数名称 类似于anroid中onclick 回调函数名称 
 按下回车 xcode会帮我们在ViewControl中生成一个函数 函数名是我们刚才起的
+
 在这个函数的左边 有一个小 实心的圆圈 这表示这个函数 已经和某一个控件发生了关联
 如果鼠标放在圆圈上面  关联的控件会高亮
 函数的结尾是（IBAction）表示 这是一个事件响应函数，但是 他的本质 其实就是一个void 哈哈 惊喜不惊喜！
 sender 是id类型的 id类型 其实就是（void＊）类型，任何对象都可以赋值给id类型。这个是触发函数的控件的id
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/chufahuidiaohanshu.png)
 
 运行模拟器，上面有hardware可以模拟按键
 UITextField就是EditText 
