@@ -54,7 +54,7 @@ ry.size.height是控件的高度
 查找字符串<br />
 rangeOfString 返回的是NSRange 看range.location==NSNotFound 是否相等<br />
 修改输入框的背景颜色<br />
-[self.editText setBackgroundColor:greenColor];<br />
+[self.editText setBackgroundColor:redColor];<br />
 
 
 UIColor*颜色的类，实例化用init的方式<br />
