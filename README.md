@@ -2,7 +2,7 @@
 这是第一个app的view<br />
 创建项目的时候 选择了IOS －》SingleView<br />
 打开main.storyboard 在右侧边栏 有两个 checkbox **Use Auto Layout**  和 **Use Size Classes**<br />
-![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/storyBoardSetting.png)
+![image](https://github.com/xuhuawei131/MyIOSApp1/blob/master/raw/master/Screenshots/storyboardSetting.png)
 
 把这两个都去掉， 这两个是  自动布局的东西<br />
 右侧栏下面有一个铜板的图标 点击它 下面出现的就是默认的所有的控件、拖到故事版页面上即可
